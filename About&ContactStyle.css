@@ -109,19 +109,7 @@ justify-content: space-between;
 #contact-details .details{
     width: 40%;  
 }
-#header img{
-    width: 50px;
-    height: 50px;
-    align-items: flex-start;
-    text-align: center;
-    
-}
-#header li a{
-    align-items: flex-start;
-    text-align: right;
-    text-align: right;
-   
-}
+
 #page-header{
     background-image: url("Imgs/Contactbanner.png");
 }
@@ -153,8 +141,7 @@ justify-content: space-between;
     padding-right:5px;
 }
 #contact-details .details li img{
-    width: 3
-    0px;
+    width: 30px;
     height: 30px;
 }
 #contact-details .details li p{
