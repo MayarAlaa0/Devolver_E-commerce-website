@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Login & Registration</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="login (1).css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="Imgs/logo3.jpg" class="Navlogo"> </a>
+        <div>
+            <ul id="navBar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop/Shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+                <li> <a href="shop/Shop.html#cart"><i class="far fa-shopping-cart"></i></a></li>
+                <div id="RegisterLogin">
+                    <li><a href="login.html"> Login</a></li>
+                    <li><a href="Register.html">Register</a></li>
+                </div>
+                <div id="user_info">
+                    <li><a href="#" id="user"></a></li>
+                    <li><a href="#" id="log_out">Log Out</a></li>
+                </div>
+            </ul>
+        </div>
+    </section>
+    <div class="all">
+        <!----------------------------- Form box ----------------------------------->
+        <div class="form-box">
+
+            <!------------------- login form -------------------------->
+            
+                
+            <!------------------- registration form -------------------------->
+            <div class="register-container" id="register">
+                <div class="top">
+                    <span>Have an account? <a href="login.html">Login</a></span>
+                    <header>Sign Up</header>
+                </div>
+                <div class="two-forms">
+                    <form action="signup.php" method="post" novalidate>
+                    <div class="input-box">
+                        <input type="text" class="input-field" id="username" name="name" placeholder="Username">
+                        <i class="bx bx-user"></i>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <input type="text" class="input-field" id="email" name="email" placeholder="Email">
+                    <i class="bx bx-envelope"></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" class="input-field" id="password" name="password" placeholder="Password">
+                    <i class="bx bx-lock-alt"></i>
+                </div>
+                <div class="input-box">
+                    <input type="submit" class="submit" id="sign_up" value="Register">
+                </div>
+                <div class="two-col">
+                    <div class="one">
+                        <input type="checkbox" id="register-check">
+                        <label for="register-check"> Remember Me</label>
+                    </div>
+                    <div class="two">
+                        <label><a href="#">Terms & conditions</a></label>
+                    </div>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+    
+     <script src="Register.js"></script> 
+</body>
+
+</html>
